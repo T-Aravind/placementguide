@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Placement Guide</title>
+</head>
+<body>
+    <div class="glass-card">
+        <h2>Skill Assessment</h2>
+        <div class="skill-checkbox-group">
+            <label><input type="checkbox" class="skill-check" value="Java"> Java</label>
+            <label><input type="checkbox" class="skill-check" value="Python"> Python</label>
+            <label><input type="checkbox" class="skill-check" value="C++"> C++</label>
+            <label><input type="checkbox" class="skill-check" value="JS"> JavaScript</label>
+        </div>
+
+        <div id="levelSection" class="hidden">
+            <h3>Proficiency Level</h3>
+            <div id="levelInputs"></div>
+            <button onclick="generateJobs()">Analyze Opportunities</button>
+        </div>
+
+        <div id="jobResults" class="hidden">
+            <h3>Recommended Roles</h3>
+            <div id="jobList" class="grid-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

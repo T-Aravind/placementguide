@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Skill Roadmaps</title>
+</head>
+<body>
+    <div class="glass-card">
+        <h2>Choose a Skill to Learn</h2>
+        <select id="roadmapSelect" onchange="showRoadmap()">
+            <option value="">Select Skill</option>
+            <option value="web">Web Development</option>
+            <option value="data">Data Science</option>
+            <option value="cyber">Cyber Security</option>
+        </select>
+        
+        <div id="roadmapDisplay" class="hidden" style="text-align: left; margin-top: 20px; line-height: 1.8;">
+            </div>
+        <button onclick="location.href='home.html'">Back</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
